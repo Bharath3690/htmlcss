@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surveyform  >></title>
+    <style> 
+    body{
+			background-color: #05c46b;
+			font-family: Verdana;
+			text-align: center;
+		 }
+
+         form{
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		 }
+
+       button {
+			background-color: #05c46b;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+      div {
+         text-align: left;
+			margin-bottom: 25px;
+
+
+      }
+    </style>
+    <center><h1>Survey Form</h1></center>
+
+</head>
+<body>
+   <form>
+    <center><label>Name</label><br>
+    <div> <input type="text" placeholder="Enter your Name" <br> <br>
+    <label>Email</label><br>
+    <input type="text " placeholder="Enter your Email "<br><br>
+    <label>Age</label><br>
+    <input type="text" placeholder="Enter your age" <br><br></center>
+     
+    <div class="form-control"><label for="role" id="label-role">
+      Which option best describes you?</label>
+      
+      <select name="role" id="role">
+      <option value="student">Student</option>
+      <option value="intern">Intern</option>
+      <option value="professional">Professional</option>
+      <option value="other">Other</option></select></div>
+      <div class="form-control">
+
+    Would you recommend GeeksforGeeks to a friend<br><br>
+    <div><input type="radio">Yes <br>
+    <input type="radio">No <br>
+    <input type="radio">Maybe <br></div>
+
+    Languages and Frameworks Know (check all that apply)<br>
+     <span><input type="checkbox">C <br>
+     <input type="checkbox">C++ <br>
+     <input type="checkbox">C# <br>
+     <input type="checkbox">Java <br>
+     <input type="checkbox">Python <br>
+     <input type="checkbox">JavaScript <br>
+     <input type="checkbox">React <br>
+     <input type="checkbox">Angular <br>
+     <input type="checkbox">Django <br>
+     <input type="checkbox">Spring <br> </span>
+
+     Any comments or suggestions <br>
+     <input type="text" <br> 
+     
+     <button type="Submit" value="submit" >submit</button>
+ 
+   </form> 
+    
+</body>
+</html>
